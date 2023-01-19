@@ -111,7 +111,7 @@ public struct ABKeychain {
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 13.0, watchOS 6.0, macOS 10.15, tvOS 13.0, *)
 @propertyWrapper
 public struct ABKeychainStorage: DynamicProperty {
     let service: String
